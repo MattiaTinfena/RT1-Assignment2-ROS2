@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/root/ros2_ws/install/ros1_bridge/include/**",
+        "/root/ros2_ws/install/turtlesim/include/**",
+        "/root/myRos/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/root/myRos/src/RT1-Assignment1/assignment1_rt/include/**",
+        "/root/myRos/src/es1Pkg/include/**",
+        "/root/myRos/src/test1/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
