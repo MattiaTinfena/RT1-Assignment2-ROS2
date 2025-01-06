@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'RT1-Assignment2-ROS2'
+package_name = 'rt1_assignment2_ros2'
 
 setup(
     name=package_name,
@@ -14,13 +14,13 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='root',
-    maintainer_email='mattia.tinfena@gmail.com',
+    maintainer_email='s7852527@studenti.unige.it',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'UI_node = RT1-Assignment2-ROS2.UI_node:main'
+            'UI_node = rt1_assignment2_ros2.UI_node:main'
         ],
     },
 )
